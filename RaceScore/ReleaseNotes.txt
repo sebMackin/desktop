@@ -1,0 +1,23 @@
+﻿<h3>RaceScore</h3>
+<p class="Contributor">
+	Purplecs.com <br />
+	<a href="mailto:tech@purplecs.com">tech@purplecs.com</a><br />
+	<a href=http://www.purplecs.com/>http://www.purplecs.com/</a><br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the RaceScore</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>Description about version.</p>
+	
+	<h4>Bug Fixes</h4>
+	<ul>
+			<li>List</li>
+			<li>of</li>
+			<li>bug</li>
+			<li>fixes</li>
+	</ul>
+	
+</div>

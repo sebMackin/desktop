@@ -1,0 +1,10 @@
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\bin\Debug\M-160601-CSharpWindowsForms.exe.config
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\bin\Debug\M-160601-CSharpWindowsForms.exe
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\bin\Debug\M-160601-CSharpWindowsForms.pdb
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\obj\Debug\M-160601-CSharpWindowsForms.csprojResolveAssemblyReference.cache
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\obj\Debug\M_160601_CSharpWindowsForms.displayForm.resources
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\obj\Debug\M_160601_CSharpWindowsForms.Form1.resources
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\obj\Debug\M_160601_CSharpWindowsForms.Properties.Resources.resources
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\obj\Debug\M-160601-CSharpWindowsForms.csproj.GenerateResource.Cache
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\obj\Debug\M-160601-CSharpWindowsForms.exe
+S:\Company\Staff\Work Experience\Seb Mackin\M-160601-CSharpWindowsForms\M-160601-CSharpWindowsForms\obj\Debug\M-160601-CSharpWindowsForms.pdb

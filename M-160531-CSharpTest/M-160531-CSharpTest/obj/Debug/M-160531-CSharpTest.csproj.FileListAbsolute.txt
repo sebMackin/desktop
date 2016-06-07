@@ -1,0 +1,9 @@
+S:\Company\Staff\Work Experience\Seb Makin\M-160531-CSharpTest\M-160531-CSharpTest\bin\Debug\M-160531-CSharpTest.exe.config
+S:\Company\Staff\Work Experience\Seb Makin\M-160531-CSharpTest\M-160531-CSharpTest\bin\Debug\M-160531-CSharpTest.exe
+S:\Company\Staff\Work Experience\Seb Makin\M-160531-CSharpTest\M-160531-CSharpTest\bin\Debug\M-160531-CSharpTest.pdb
+S:\Company\Staff\Work Experience\Seb Makin\M-160531-CSharpTest\M-160531-CSharpTest\obj\Debug\M-160531-CSharpTest.csprojResolveAssemblyReference.cache
+S:\Company\Staff\Work Experience\Seb Makin\M-160531-CSharpTest\M-160531-CSharpTest\obj\Debug\M-160531-CSharpTest.exe
+S:\Company\Staff\Work Experience\Seb Makin\M-160531-CSharpTest\M-160531-CSharpTest\obj\Debug\M-160531-CSharpTest.pdb
+C:\Users\workexp.one\Documents\sebMackin\desktop\M-160531-CSharpTest\M-160531-CSharpTest\bin\Debug\M-160531-CSharpTest.exe.config
+C:\Users\workexp.one\Documents\sebMackin\desktop\M-160531-CSharpTest\M-160531-CSharpTest\obj\Debug\M-160531-CSharpTest.exe
+C:\Users\workexp.one\Documents\sebMackin\desktop\M-160531-CSharpTest\M-160531-CSharpTest\obj\Debug\M-160531-CSharpTest.pdb
