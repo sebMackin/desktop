@@ -67,6 +67,8 @@
     <Compile Include="Components\FeatureController.cs" />
     <Compile Include="Components\RacersItemController.cs" />
     <Compile Include="Components\RacersItem.cs" />
+    <Compile Include="Components\RaceScoreController.cs" />
+    <Compile Include="Components\RaceScoresItem.cs" />
     <Compile Include="Components\RacesItem.cs" />
     <Compile Include="Components\RacesItemController.cs" />
     <Compile Include="Race.ascx.cs">

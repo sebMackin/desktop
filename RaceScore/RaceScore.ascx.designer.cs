@@ -13,12 +13,21 @@ namespace Purplecs.Modules.RaceScore {
     public partial class RaceScore {
         
         /// <summary>
-        /// btnMainPage control.
+        /// rptScores control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMainPage;
+        protected global::System.Web.UI.WebControls.Repeater rptScores;
+        
+        /// <summary>
+        /// btnSave control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSave;
     }
 }

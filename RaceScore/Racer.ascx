@@ -33,7 +33,7 @@
                  <%-- Displays the position of the racer in repeater on the page --%>
                  <h4>
                     No:
-                    <asp:Label ID="Label2" runat="server" Text='<%#Container.ItemIndex + 1 %>' />
+                    <asp:Label ID="lblNumber" runat="server" Text='<%#Container.ItemIndex + 1 %>' />
                 </h4>
 
                 <%-- Displays the name of the racer on the page --%>

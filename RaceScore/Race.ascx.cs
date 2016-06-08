@@ -9,7 +9,7 @@ using DotNetNuke.Services.Exceptions;
 
 namespace Purplecs.Modules.RaceScore
 {
-    public partial class Race :  RaceScoreModuleBase
+    public partial class Race : RaceScoreModuleBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -77,7 +77,7 @@ namespace Purplecs.Modules.RaceScore
                 ///Create a new instance of Item
                 t = new RacesItem()
                 {
-                    
+
                     ///get the time created and other values from textboxes
                     ///and put into the database values for the new Item
                     CreatedDate = DateTime.Now,
@@ -107,6 +107,18 @@ namespace Purplecs.Modules.RaceScore
         protected void btnCancel_Click(object sender, EventArgs e)
         {
             Response.Redirect(DotNetNuke.Common.Globals.NavigateURL());
+        }
+
+
+        protected void rptItemList_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            if (e.Item.ItemType == ListItemType.AlternatingItem || e.Item.ItemType == ListItemType.Item)
+            {
+                var t = (RacesItem)e.Item.DataItem;
+                var hlLotkToScore = e.Item.FindControl("hlLotkToScore") as HyperLink;
+                hlLotkToScore.NavigateUrl = DotNetNuke.Common.Globals.NavigateURL(TabId,"","ctl=RaceScore",$"RaceID={t.ID}")+$"/mid/{ModuleId}";
+
+            }
         }
     }
 }

@@ -18,6 +18,7 @@
             Date of Race:<asp:TextBox ID="txtRaceDate" runat="server" MaxLength="50" TextMode="Date" DateFormat="dd/MM/yyyy"
                                       DisplayDateFormat="dd/MM/yyyy"/>
         </div>
+       
     </fieldset>
 </div>
 
@@ -30,7 +31,7 @@
     OnClick="btnCancel_Click" resourcekey="btnCancel" CssClass="dnnSecondaryAction" />
 
 <%-- Adds the labels for the admin to see the races already in the database --%>
-<asp:Repeater ID="rptItemList" runat="server">
+<asp:Repeater ID="rptItemList" OnItemDataBound="rptItemList_ItemDataBound" runat="server">
         <HeaderTemplate>
             <ul class="tm_tl">
         </HeaderTemplate>
@@ -59,9 +60,9 @@
                 <%-- Displays the exact date and time when the user entered information --%>
                 <h4>
                     Date:
-                    <asp:Label ID="Label1" runat="server" Text='<%#DataBinder.Eval(Container.DataItem,"CreatedDate").ToString() %>' CssClass="tm_td" />
+                    <asp:Label ID="Label1" Text='<%#DataBinder.Eval(Container.DataItem,"CreatedDate") %>' runat="server"  CssClass="tm_td" />
                 </h4>
-
+                 <asp:HyperLink ID="hlLotkToScore" runat="server" Text="Go to Scores"></asp:HyperLink>
             </li>
         </ItemTemplate>
     <FooterTemplate>
