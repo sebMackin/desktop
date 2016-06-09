@@ -1,0 +1,38 @@
+﻿@using Purplecs.Modules.RaceScore.Components
+@inherits DotNetNuke.Web.Razor.DotNetNukeWebPage<Score>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap-theme.css" />
+</head>
+<div class="table-responsive">
+    <table class="table table-bordered table-hover table-striped table-responsive">
+
+        <thead>
+            <tr>
+                <th>Racers\Race</th>
+                @foreach (var item in Model.Races)
+                {
+                    <th>@item.Name <br />@item.raceDateString  </th>
+                }
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Racers)
+            {
+                <tr>
+           
+                    <td>@item.Name</td>
+                    @foreach (var item2 in Model.Races)
+                    {
+                        <td>@{int i=Model.GetScore(item.ID, item2.ID);  } @(i==0?"":i.ToString())</td>
+                    }
+                </tr>
+            }   
+        </tbody>
+    </table>
+</div>
+     

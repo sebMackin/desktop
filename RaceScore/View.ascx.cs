@@ -19,6 +19,8 @@ using DotNetNuke.Entities.Modules;
 using DotNetNuke.Entities.Modules.Actions;
 using DotNetNuke.Services.Localization;
 using DotNetNuke.UI.Utilities;
+using System.IO;
+using System.Web.UI;
 
 namespace Purplecs.Modules.RaceScore
 {
@@ -41,7 +43,9 @@ namespace Purplecs.Modules.RaceScore
         {
             try
             {
-               
+                ScoreManager manage = new ScoreManager();
+              var score=  manage.GetAllScores(ModuleId);
+                Display(score);
             }
             catch (Exception exc) //Module failed to load
             {
@@ -49,9 +53,19 @@ namespace Purplecs.Modules.RaceScore
             }
         }
 
-      
+        private void Display(Score score)
+        {
 
+            string templatePath = "";
+            templatePath = ControlPath + "View/_viewRaceDetails.cshtml";
+            var razorEngine = new DotNetNuke.Web.Razor.RazorEngine(templatePath, ModuleContext, LocalResourceFile);
+            var writer = new StringWriter();
        
+            razorEngine.Render(writer, score );
+
+            DivDisplayRaces.Controls.Add(new LiteralControl(Server.HtmlDecode(writer.ToString())));
+        }
+    
 
         public ModuleActionCollection ModuleActions
         {
@@ -66,11 +80,8 @@ namespace Purplecs.Modules.RaceScore
                          {
                             GetNextActionID(),  "Manage Racer" , "", "", "",
                            EditUrl(string.Empty, string.Empty, "Racer",""), false, SecurityAccessLevel.Edit, true, false
-                        },
-                          {
-                            GetNextActionID(),  "Manage RaceScore" , "", "", "",
-                           EditUrl(string.Empty, string.Empty, "RaceScore",""), false, SecurityAccessLevel.Edit, true, false
                         }
+                         
                     };
                 return actions;
             }

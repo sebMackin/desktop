@@ -40,7 +40,7 @@ namespace Purplecs.Modules.RaceScore.Components
             using (IDataContext ctx = DataContext.Instance())
             {
                 var rep = ctx.GetRepository<RaceScoresItem>();
-                t = rep.Get(moduleId);
+                t = rep.Get();
             }
             return t;
         }

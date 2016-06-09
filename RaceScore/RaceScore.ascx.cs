@@ -89,6 +89,8 @@ namespace Purplecs.Modules.RaceScore
                     }
                 }
             }
+
+            Response.Redirect(DotNetNuke.Common.Globals.NavigateURL());
         }
     }
 }
