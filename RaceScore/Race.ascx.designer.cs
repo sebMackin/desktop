@@ -13,6 +13,15 @@ namespace Purplecs.Modules.RaceScore {
     public partial class Race {
         
         /// <summary>
+        /// lblRaceName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRaceName;
+        
+        /// <summary>
         /// txtRacename control.
         /// </summary>
         /// <remarks>
@@ -22,6 +31,24 @@ namespace Purplecs.Modules.RaceScore {
         protected global::System.Web.UI.WebControls.TextBox txtRacename;
         
         /// <summary>
+        /// rfvRace control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvRace;
+        
+        /// <summary>
+        /// lblRaceDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRaceDate;
+        
+        /// <summary>
         /// txtRaceDate control.
         /// </summary>
         /// <remarks>
@@ -29,6 +56,15 @@ namespace Purplecs.Modules.RaceScore {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtRaceDate;
+        
+        /// <summary>
+        /// rfvRaceDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvRaceDate;
         
         /// <summary>
         /// btnSubmit control.
